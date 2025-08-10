@@ -78,5 +78,5 @@
     COUNT(*) AS number_of_deliveries
     FROM food_time
     GROUP BY age_group
-ORDER BY number_of_deliveries ASC;
+    ORDER BY number_of_deliveries ASC;
 
